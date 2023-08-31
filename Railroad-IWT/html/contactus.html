@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/HomePage.css">
+    <link rel="stylesheet" href="../css/footer.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<script>
+    function myFunction() {
+      alert('Thank You!');}
+    </script>
+</head>
+<body background="../images/con.jpg">
+<!--Navigation Start-->
+<ul class="navbar navbar-light" style="background-color: #e3f2fd;  text-decoration: none;">
+    
+    <img class="LogoNav" id="LogoNav" src="../images/logo.jpeg">
+ 
+
+
+<li class="nav-item">
+  <a class="nav-link " href="home.html">HOME</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active" href="contactus.html">Contact Us</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="aboutus.html">About Us</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="reservation.html">RESERVATION </a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="shedule.php">Schedule </a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="package.php">Package </a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="advertising.html">Advertise </a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="feedback.html">Feedback </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="login.html">Login</a>
+</li>
+</ul>
+<br />
+
+<!--Navigation End-->
+<h3 style="text-align: center;color: azure;">Contact Form</h3>
+
+<div class="container">
+  <form action="contact.php" method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname" placeholder="Your last name.." required>
+
+    
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+
+    <input style="background-color: blue;" type="submit" value="Submit" name="submit" onclick="myFunction()">
+  </form>
+</div>
+
+  <!-- footer Bar -->
+
+  <footer class="footer-distributed">
+  
+    <div class="footer-left">
+    
+   
+    
+    <p class="footer-links">
+    <a href="#">Home</a>
+    <br>
+    <a href="#">Contact Us <br> For Reservations:</a>
+      If you have specific questions about the guidelines,<br> please email us: railroad@nih.gov <br><br>
+      Other Inquiries:
+      For other questions or contact information, <br>please contact +94 112221122
+    </p>
+    
+    <p class="footer-company-name">railroad &copy; 2022</p>
+    </div>
+    
+    <div class="footer-center">
+    
+    <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>119A</span> Colombo, Sri Lanka</p>
+    </div>
+    
+    <div>
+    <i class="fa fa-phone"></i>
+    <p>+94 112221122</p>
+    </div>
+    
+    <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="#">railroad@nih.gov</a></p>
+    </div>
+    
+    </div>
+    
+    <div class="footer-right">
+    
+    <p class="footer-company-about">
+    <span>Trainline is an independent digital rail and coach platform.Trainline's main offices are in Colombo.We try to provide better service for you </span>
+    <img style="width: 300px;height: 300px;" class="LogoNav" id="LogoNav" src="../images/logo.jpeg"><br>
+    
+    </p>
+    
+    <div class="footer-icons">
+    
+  
+    
+    </div>
+  
+    </div>
+    <img src="../images/ga.jpg" style="height: 100px; width:200px"><img src="../images/vis.jpg" style="height: 100px; width:150px"><img src="../images/master.jpg" style="height: 100px; width:150px">
+    </footer>
+</body>
+</html>
